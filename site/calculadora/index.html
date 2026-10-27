@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Dark Mode</title>
+    <!-- FontAwesome para Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- CSS da Calculadora -->
+    <link rel="stylesheet" href="css/calculadora.css">
+</head>
+<body>
+    <!-- Container Principal da Calculadora -->
+    <main class="calculator-card">
+        <!-- Cabeçalho -->
+        <header class="calculator-header">
+            <div class="window-dots">
+                <span class="dot dot-red" title="Fechar"></span>
+                <span class="dot dot-yellow" title="Minimizar"></span>
+                <span class="dot dot-green" title="Expandir"></span>
+            </div>
+            <span class="header-badge">Minha calculadora</span>
+        </header>
+
+        <!-- Visor / Display -->
+        <section class="display-container" aria-label="Visor da Calculadora">
+            <div class="history-expression"></div>
+            <div class="main-display">0</div>
+        </section>
+
+        <!-- Grade de Botões (4 Colunas x 5 Linhas) -->
+        <section class="calculator-grid" aria-label="Teclado da Calculadora">
+            <!-- Linha 1 -->
+            <button class="calc-btn btn-func" type="button">AC</button>
+            <button class="calc-btn btn-func" type="button" aria-label="Apagar dígito">
+                <i class="fa-solid fa-delete-left"></i>
+            </button>
+            <button class="calc-btn btn-func" type="button">%</button>
+            <button class="calc-btn btn-operator" type="button">÷</button>
+
+            <!-- Linha 2 -->
+            <button class="calc-btn btn-number" type="button">7</button>
+            <button class="calc-btn btn-number" type="button">8</button>
+            <button class="calc-btn btn-number" type="button">9</button>
+            <button class="calc-btn btn-operator" type="button">×</button>
+
+            <!-- Linha 3 -->
+            <button class="calc-btn btn-number" type="button">4</button>
+            <button class="calc-btn btn-number" type="button">5</button>
+            <button class="calc-btn btn-number" type="button">6</button>
+            <button class="calc-btn btn-operator" type="button">−</button>
+
+            <!-- Linha 4 -->
+            <button class="calc-btn btn-number" type="button">1</button>
+            <button class="calc-btn btn-number" type="button">2</button>
+            <button class="calc-btn btn-number" type="button">3</button>
+            <button class="calc-btn btn-operator" type="button">+</button>
+
+            <!-- Linha 5 -->
+            <button class="calc-btn btn-func" type="button">±</button>
+            <button class="calc-btn btn-number" type="button">0</button>
+            <button class="calc-btn btn-number" type="button">,</button>
+            <button class="calc-btn btn-equals" type="button">=</button>
+        </section>
+
+        <!-- Rodapé -->
+        <footer class="calculator-footer">
+            Copyleft &copy; 2026 - Desenvolvido por mim@eu.com.br
+        </footer>
+    </main>
+
+</body>
+</html>
