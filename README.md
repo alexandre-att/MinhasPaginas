@@ -48,7 +48,7 @@ Na página inicial do GitHub (`Dashboard`), (1) clique no notão com o símbolo 
 Na página `Create a new repository` (`Criar um novo repositório`), preencha os campos do formulário de acordo com a sua necessidade.
 A seguir, uma sugestão:
 
- # | Field | Campo | Valor
+\# | Field | Campo | Valor
 ---|---|---|---
 1 | Repository name* | Nome do repositório* | Minhas Páginas
 2 | Description | Descrição | Exemplo de uso do GitHub Pages
